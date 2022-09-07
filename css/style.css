@@ -1,0 +1,28 @@
+
+
+.header-home-page 
+{
+    background-image: url(../img/bg.jpg);
+}
+
+.navbar-home-page
+{
+    margin-left: 18.125rem !important;
+    margin-right: 18.125rem !important;
+}
+
+.navbar-nav .nav-link
+{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+    padding-left: 3.125rem !important;
+}
+
+.navbar-nav .nav-link:hover
+{
+    color: #D9EDFF;
+    text-decoration-line:underline
+}
