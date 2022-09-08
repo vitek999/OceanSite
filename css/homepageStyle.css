@@ -1,29 +1,98 @@
 body {
     font-family: 'Montserrat', sans-serif !important;
+    font-style: normal;
     margin: 0;
+
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
 }
 
+/*----------------------- СТИЛИ ТЕКСТА ------------------------------ */
 h1 {
-    font-style: normal;
     font-weight: 600;
     font-size: 64px;
     line-height: 78px;
 }
 
 h2 {
-    font-style: normal;
     font-weight: 600;
     font-size: 30px;
     line-height: 36px;
 }
 
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.text-body18 {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.text-body16 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.text-body14 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text-body12 {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.text-body12 {
+    font-size: 10px;
+    line-height: 12px;
+}
+
+.semibold-text {
+    font-weight: 600;
+}
+
+.medium-text {
+    font-weight: 500;
+}
+
+.regular-text {
+    font-weight: 400;
+}
+
+.main-text {
+    color: #333333;
+}
+
+.secondary-text {
+    color: #6C6B6B
+}
+
+/*----------------------- СТИЛИ КНОПОК ------------------------------ */
 .button-fullfill {
     background: #1A2AB2;
     box-shadow: 0px 16px 28px rgba(23, 20, 160, 0.18), 0px 10px 16px rgba(23, 20, 160, 0.06);
     border-radius: 50px;
     border-style: none;
 
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -47,8 +116,7 @@ h2 {
     margin-right: auto;
 }
 
-/*БЛОК НАВИГАЦИОННОЙ ПАНЕЛИ*/
-
+/*----------------------- БЛОК НАВИГАЦИОННОЙ ПАНЕЛИ ------------------------------ */
 .content-header {
     padding: 40px 0;
 }
@@ -68,12 +136,15 @@ h2 {
     float: right;
 }
 
+.nav-logo {
+    cursor: default
+}
+
 .nav-link {
     color: #fff;
-    font-size: 1.25rem;
-    font-weight: 600;
-    line-height: 1.625rem;
-    padding-left: 3.125rem;
+    font-size: 20px;
+    line-height: 26px;
+    padding-left: 50px;
     text-decoration: none;
 }
 
@@ -99,7 +170,7 @@ h2 {
     padding: 15.5px 61px;
 }
 
-/*БЛОК ПОПУЛЯРНОЕ СЕГОДНЯ*/
+/*----------------------- БЛОК ПОПУЛЯРНОЕ СЕГОДНЯ ------------------------------ */
 .content-popular-today {
     padding: 126px 0;
 }
@@ -120,11 +191,6 @@ h2 {
     display: flex;
     padding: 22px 33px 23px;
     margin-bottom: 24px;
-
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 24px;
 }
 
 .popular-today-card:hover {
@@ -137,15 +203,7 @@ h2 {
 }
 
 .popular-today-description-header {
-    margin-bottom: 4px 0 0 0;
-}
-
-.popular-today-description-text {
-    color: #6C6B6B;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
+    margin-bottom: 2px;
 }
 
 .popular-today-infolist {
@@ -153,11 +211,6 @@ h2 {
 }
 
 .popular-today-informaton {
-    color: #6C6B6B;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     margin-left: auto;
     margin-top: auto;
 }
@@ -181,18 +234,9 @@ h2 {
 }
 
 .popular-today-infolist-item-title {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 22px;
     margin-left: 6px;
 }
 
 .popular-today-infolist-item-information {
-    color: #6C6B6B;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
     margin-left: 9px;
 }
