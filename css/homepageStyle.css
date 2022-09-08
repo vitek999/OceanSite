@@ -47,6 +47,8 @@ h2 {
     margin-right: auto;
 }
 
+/*БЛОК НАВИГАЦИОННОЙ ПАНЕЛИ*/
+
 .content-header {
     padding: 40px 0;
 }
@@ -160,7 +162,7 @@ h2 {
     margin-top: auto;
 }
 
-.container-popular-today-infolist{
+.container-popular-today-infolist {
     display: flex;
     align-items: center;
     align-content: center;
