@@ -251,7 +251,7 @@ h3 {
     align-items: center;
 }
 
-.news-start-button-block{
+.news-start-button-block {
     margin-left: auto;
 }
 
@@ -289,7 +289,7 @@ h3 {
     background-position: center;
 }
 
-.news-start-arrow-left-default{
+.news-start-arrow-left-default {
     background-image: url(../img/leftArrowIconDefault.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -307,7 +307,7 @@ h3 {
     background-position: center;
 }
 
-.news-start-arrow-right-default{
+.news-start-arrow-right-default {
     background-image: url(../img/rightArrowIconDefault.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -364,4 +364,45 @@ h3 {
 
 .news-card-description-text {
     margin-left: 8px;
+}
+
+/*---------------------— БЛОК РЕЗУЛЬТАТОВ ГОЛОСОВАНИЯ —--------------------------— */
+.contest-block {
+    margin-bottom: 140px;
+}
+
+.contest-start-block {
+    display: flex;
+    align-items: center;
+}
+
+.contest-watch-more {
+    margin-left: auto;
+    text-decoration: none;
+    color: #1A2AB2;
+}
+
+.contest-watch-more:hover {
+    color: #384CF6;
+}
+
+.contest-line-block{
+    display: flex;
+}
+
+.card-contest-competitor {
+    background: #FFFFFF;
+    box-shadow: 0px 3.89312px 23.3587px rgba(189, 189, 189, 0.23);
+    border-radius: 15px;
+    width: max-content;
+    margin-right: 30px;
+}
+
+.card-contest-competitor:hover {
+    box-shadow: 0px 10.89px 46px rgba(56, 76, 246, 0.18);
+}
+
+.card-contest-competitor-text{
+    padding: 22px;
+    width: 170px;
 }
