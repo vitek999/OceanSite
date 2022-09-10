@@ -48,7 +48,26 @@
     color: #fff;
 }
 
-.start-info-description{
+.start-info-description {
     color: #FFFFFF;
     width: 866px;
+}
+
+/*----------------------- БЛОК ФИЛЬТРОВ ------------------------------ */
+.content-filter {
+    display: flex;
+    align-items: center;
+}
+
+.filter-block {
+    margin-top: 80px;
+}
+
+.filters-group{
+    margin-left: 40px;
+}
+
+.filter-button{
+    padding: 4px 18px;
+    margin-right: 20px;
 }
