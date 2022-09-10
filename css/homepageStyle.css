@@ -1,4 +1,5 @@
-body {
+body,
+footer {
     font-family: 'Montserrat', sans-serif !important;
     font-style: normal;
     margin: 0;
@@ -421,7 +422,7 @@ h3 {
     display: flex;
 }
 
-.about-description{
+.about-description {
     width: 550px;
     margin-right: 174px;
 }
@@ -464,4 +465,141 @@ h3 {
     top: 190.5px;
     width: 260px;
     margin-left: 24px
+}
+
+/*---------------------— БЛОКИ ПОДВАЛА САЙТА —--------------------------— */
+.footer-hr {
+    width: 1366px;
+}
+
+/*---------------------— БЛОК ПОДПИСКИ НА НОВОСТИ —--------------------------— */
+.subscription-block {
+    margin-bottom: 140px;
+}
+
+.content-subscription {
+    background-color: #1A2AB2;
+    border-radius: 15px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.subscription-text {
+    margin: 61px 145.5px 65px 70px;
+}
+
+.subscription-text-header {
+    margin-top: 0;
+    margin-bottom: 44px;
+}
+
+.subscription-form {
+    border: 1.5px solid #FFFFFF;
+    border-radius: 50px;
+    margin: 116px 70px 69px 0;
+    height: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 7.5px 0 29px;
+}
+
+.subscription-form-button {
+    border-radius: 50px;
+    width: 42px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 1px solid #FAFAFA;
+    box-shadow: 0px 3.89312px 23.3587px rgba(189, 189, 189, 0.23);
+    background-image: url(../img/arrowIcon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: auto;
+}
+
+.subscription-form-button:hover {
+    background: #7EC1FF;
+    border: 1px solid #7EC1FF;
+    background-image: url(../img/arrowIconHOVER.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*---------------------— БЛОК C КОНТАКТАМИ —--------------------------— */
+.contact-block {
+    margin-top: 50px;
+    margin-bottom: 53px;
+}
+
+.content-contact {
+    display: flex;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-right: 128px;
+}
+
+.contact-item-element {
+    margin-right: 18px;
+}
+
+.contact-item-status {
+    color: #1A2AB2;
+}
+
+/*---------------------— БЛОК C ПОЛЕЗНЫМИ РАЗДЕЛАМИ —--------------------------— */
+.sections-block {
+    margin-top: 46px;
+    margin-bottom: 80px;
+}
+
+.content-sections {
+    display: flex;
+}
+
+.section-item {
+    margin-right: 160px;
+}
+
+.section-item-list {
+    margin-top: 16px;
+}
+
+/*---------------------— БЛОК C CОЦИАЛЬНЫМИ СЕТЯМИ —--------------------------— */
+.social-network-block {
+    margin: 31px 0;
+}
+
+.content-social-network {
+    display: flex;
+}
+
+.social-netwok-item {
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    border-radius: 36px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.social-netwok-item-img {
+    display: block;
+    padding: 6px;
+}
+
+/*---------------------— БЛОК ИНФОРМАЦИИ ПОДВАЛА —--------------------------— */
+.info-block{
+    margin: 28px 0 24px 0;
+}
+
+.content-info{
+    display: flex;
+}
+
+.content-info-privacy-policy{
+    margin-left: auto;
 }
