@@ -63,11 +63,78 @@
     margin-top: 80px;
 }
 
-.filters-group{
+.filters-group {
     margin-left: 40px;
 }
 
-.filter-button{
+.filter-button {
     padding: 4px 18px;
     margin-right: 20px;
+}
+
+/*----------------------- БЛОК КАРТОЧЕК С ОБИТАТЕЛЯМИ ------------------------------ */
+.inhabitants-list {
+    margin-top: 50px;
+}
+
+.content-inhabitants-list {
+    margin-top: 50px;
+}
+
+.inhabitants-list-table-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 464px);
+    grid-template-rows: repeat(2, 423px);
+}
+
+.inhabitants-list-table-cards>* {
+    margin: 0 30px 30px 0;
+}
+
+.inhabitants-list-card{
+    position: relative;
+}
+
+.inhabitants-list-card:hover .inhabitants-list-card-gradient{
+    opacity: 0;
+}
+
+.inhabitants-list-card:hover .inhabitants-list-card-text{
+    opacity: 0;
+}
+
+.inhabitants-list-card-img{
+    z-index: -1;
+    position: absolute;
+}
+
+.inhabitants-list-card-img:hover{
+    z-index: 10;
+}
+
+.inhabitants-list-card-gradient {
+    background: linear-gradient(180deg, rgba(12, 11, 11, 0) 31.6%, rgba(0, 0, 0, 0.416) 73.45%);
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: absolute;
+}
+
+.inhabitants-list-card-text{
+    color: #FFFFFF;
+    position: absolute;
+    top: 285px;
+    z-index: 100;
+    margin-left: 30px;
+}
+
+.inhabitants-list-card-text-header{
+    margin-bottom: 10px;
+}
+
+.inhabitants-list-button-block{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }

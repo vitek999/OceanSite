@@ -146,3 +146,61 @@ h3 {
     border: 1px solid #384CF6;
     color: #384CF6;
 }
+
+.button-arrow {
+    border-radius: 43px;
+
+    width: 43px;
+    height: 43px;
+}
+
+.button-arrow-active {
+    background: #FFFFFF;
+    border: 1px solid #FAFAFA;
+    box-shadow: 0px 3.89312px 23.3587px rgba(189, 189, 189, 0.23);
+}
+
+.button-arrow-active:hover {
+    background: #7EC1FF;
+}
+
+.button-arrow-default {
+    background: #FAFAFA;
+    border: 1px solid #FAFAFA;
+}
+
+.button-arrow-left {
+    background-image: url(../img/leftArrowIcon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-arrow-left:hover {
+    background-image: url(../img/leftArrowIconHOVER.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-arrow-left-default {
+    background-image: url(../img/leftArrowIconDefault.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-arrow-right {
+    background-image: url(../img/rightArrowIcon.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-arrow-right:hover {
+    background-image: url(../img/rightArrowIconHOVER.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-arrow-right-default {
+    background-image: url(../img/rightArrowIconDefault.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
