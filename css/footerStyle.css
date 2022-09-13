@@ -1,3 +1,8 @@
+.footer-container {
+    background: #FAFAFA;
+    border-radius: 15px 15px 0px 0px;
+}
+
 /*---------------------— БЛОКИ ПОДВАЛА САЙТА —--------------------------— */
 .footer-hr {
     width: 1366px;
@@ -54,11 +59,12 @@
     background-image: url(../img/arrowIconHOVER.svg);
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
 }
 
 /*---------------------— БЛОК C КОНТАКТАМИ —--------------------------— */
 .contact-block {
-    margin-top: 50px;
+    padding-top: 50px;
     margin-bottom: 53px;
 }
 
@@ -123,14 +129,14 @@
 }
 
 /*---------------------— БЛОК ИНФОРМАЦИИ ПОДВАЛА —--------------------------— */
-.info-block{
+.info-block {
     margin: 28px 0 24px 0;
 }
 
-.content-info{
+.content-info {
     display: flex;
 }
 
-.content-info-privacy-policy{
+.content-info-privacy-policy {
     margin-left: auto;
 }

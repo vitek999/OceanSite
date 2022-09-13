@@ -77,6 +77,7 @@
 
 .popular-today-card:hover {
     box-shadow: 0px 10.89px 46px rgba(56, 76, 246, 0.18);
+    cursor: pointer;
 }
 
 .popular-today-time {
@@ -90,6 +91,8 @@
 
 .popular-today-infolist {
     margin-left: auto;
+    background: #FAFAFA;
+    border-radius: 15px;
 }
 
 .popular-today-informaton {
@@ -154,6 +157,7 @@
 
 .news-card:hover {
     box-shadow: 0px 10.89px 46px rgba(56, 76, 246, 0.18);
+    cursor: pointer;
 }
 
 .news-card-img-block {
@@ -211,6 +215,7 @@
 
 .contest-watch-more:hover {
     color: #384CF6;
+    cursor: pointer;
 }
 
 .contest-line-block {
@@ -227,6 +232,7 @@
 
 .card-contest-competitor:hover {
     box-shadow: 0px 10.89px 46px rgba(56, 76, 246, 0.18);
+    cursor: pointer;
 }
 
 .card-contest-competitor-text {
@@ -236,8 +242,11 @@
 
 /*---------------------— БЛОК ИНФОРМАЦИИ О МИРЕ —--------------------------— */
 .about-block {
-    padding-top: 86px;
-    margin-bottom: 220px;
+    padding-top: 74px;
+    padding-bottom: 80px;
+    margin-bottom: 140px;
+    margin-top: 12px;
+    background: #FAFAFA;
 }
 
 .content-about {
@@ -275,6 +284,7 @@
 
 .about-card:hover {
     box-shadow: 0px 10.89px 46px rgba(56, 76, 246, 0.18);
+    cursor: pointer;
 }
 
 .about-card-content {

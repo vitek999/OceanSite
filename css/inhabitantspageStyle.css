@@ -32,7 +32,8 @@
 
 .nav-link:hover {
     color: #D9EDFF;
-    text-decoration-line: underline
+    text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .nav-item {
@@ -97,10 +98,12 @@
 
 .inhabitants-list-card:hover .inhabitants-list-card-gradient {
     opacity: 0;
+    cursor: pointer;
 }
 
 .inhabitants-list-card:hover .inhabitants-list-card-text {
     opacity: 0;
+    cursor: pointer;
 }
 
 .inhabitants-list-card-img {
@@ -110,6 +113,7 @@
 
 .inhabitants-list-card-img:hover {
     z-index: 10;
+    cursor: pointer;
 }
 
 .inhabitants-list-card-gradient {
