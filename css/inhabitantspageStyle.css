@@ -81,7 +81,7 @@
     margin-top: 50px;
 }
 
-.inhabitants-list-table-cards{
+.inhabitants-list-table-cards {
     display: grid;
     grid-template-columns: repeat(3, 464px);
     grid-template-rows: repeat(2, 423px);
@@ -91,24 +91,24 @@
     margin: 0 30px 30px 0;
 }
 
-.inhabitants-list-card{
+.inhabitants-list-card {
     position: relative;
 }
 
-.inhabitants-list-card:hover .inhabitants-list-card-gradient{
+.inhabitants-list-card:hover .inhabitants-list-card-gradient {
     opacity: 0;
 }
 
-.inhabitants-list-card:hover .inhabitants-list-card-text{
+.inhabitants-list-card:hover .inhabitants-list-card-text {
     opacity: 0;
 }
 
-.inhabitants-list-card-img{
+.inhabitants-list-card-img {
     z-index: -1;
     position: absolute;
 }
 
-.inhabitants-list-card-img:hover{
+.inhabitants-list-card-img:hover {
     z-index: 10;
 }
 
@@ -121,7 +121,7 @@
     position: absolute;
 }
 
-.inhabitants-list-card-text{
+.inhabitants-list-card-text {
     color: #FFFFFF;
     position: absolute;
     top: 285px;
@@ -129,12 +129,42 @@
     margin-left: 30px;
 }
 
-.inhabitants-list-card-text-header{
+.inhabitants-list-card-text-header {
     margin-bottom: 10px;
 }
 
-.inhabitants-list-button-block{
+.inhabitants-list-button-block {
     margin-top: 20px;
     display: flex;
     justify-content: center;
+}
+
+/*----------------------- БЛОК ПРОГРАММ ПОМОЩИ ------------------------------ */
+
+.content-help-inhabitants {
+    margin-top: 100px;
+    margin-bottom: 140px;
+    background: #FFFFFF;
+    box-shadow: 0px 3.89312px 23.3587px rgba(189, 189, 189, 0.23);
+    border-radius: 15px;
+}
+
+.help-inhabitants-filling {
+    padding: 43px 0 32px 76px;
+}
+
+.help-inhabitants-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.help-inhabitants-list-item-description {
+    margin-left: 95px;
+    margin-right: 26px;
+}
+
+.help-inhabitants-list-item-button {
+    border: transparent;
+    background-color: transparent;
 }
