@@ -1,55 +1,7 @@
 /*----------------------- БЛОК НАВИГАЦИОННОЙ ПАНЕЛИ ------------------------------ */
-.content-header {
-    padding: 40px 0;
-}
-
-.header-home-page-gradient {
-    background: linear-gradient(0deg, rgba(0, 8, 75, 0.8) 0%, rgba(0, 8, 75, 0.08) 52.4%, rgba(0, 8, 75, 0.4) 100%);
-    opacity: 0.9;
-}
-
 .header-home-page {
     background-image: url(../img/homepage/bg.jpg);
     background-size: cover;
-}
-
-.navbar-nav {
-    list-style-type: none;
-    float: right;
-}
-
-.nav-logo {
-    cursor: default
-}
-
-.nav-link {
-    color: #fff;
-    font-size: 20px;
-    line-height: 26px;
-    padding-left: 50px;
-    text-decoration: none;
-}
-
-.nav-link:hover {
-    color: #D9EDFF;
-    text-decoration-line: underline
-}
-
-.nav-item {
-    display: inline;
-}
-
-.start-info {
-    width: 967px;
-    padding: 98px 0;
-}
-
-.start-info-text {
-    color: #fff;
-}
-
-.start-info-button {
-    padding: 15.5px 61px;
 }
 
 /*----------------------- БЛОК ПОПУЛЯРНОЕ СЕГОДНЯ ------------------------------ */

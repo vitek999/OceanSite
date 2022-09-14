@@ -1,0 +1,20 @@
+/*----------------------- БЛОК НАВИГАЦИОННОЙ ПАНЕЛИ ------------------------------ */
+.header-home-page {
+    background-image: url(../img/asteriaspage/header.svg);
+    background-size: cover;
+}
+
+.start-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.start-info-text{
+    margin-bottom: 6px;
+}
+
+.start-info-text-subtitle{
+    color: #FFFFFF;
+}
