@@ -20,7 +20,7 @@
 }
 
 /*----------------------- БЛОК ОБ ОБИТАТЕЛЕ ------------------------------ */
-.content-about-block {
+.content-about {
     margin-top: 87px;
 }
 
@@ -49,4 +49,39 @@
 
 .about-block-characteristics-card-text {
     margin-top: 32px;
+}
+
+/*----------------------- БЛОК О МЕСТОЖИТЕЛЬСТВЕ ОБИТАТЕЛЯ ------------------------------ */
+.contentabout-live{
+    margin: 109px 0 104px 351px;
+    display: flex;
+}
+
+.contentabout-live-text-block{
+    margin-left: 85px;
+    width: 100%;
+}
+
+.contentabout-live-text-description{
+    width: 444px;
+}
+
+.contentabout-live-text-special{
+    display: flex;
+}
+
+.contentabout-live-text-special-textblock{
+    margin-left: 11px;
+    flex-grow: 1;
+}
+
+.contentabout-live-text-special-description{
+    color: #1A2AB2;
+}
+
+.contentabout-live-text-special-hr{
+    border: none;
+    background-color:#1A2AB2;
+    color: #1A2AB2;
+    height: 1px;
 }
