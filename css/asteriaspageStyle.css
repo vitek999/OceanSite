@@ -52,36 +52,105 @@
 }
 
 /*----------------------- БЛОК О МЕСТОЖИТЕЛЬСТВЕ ОБИТАТЕЛЯ ------------------------------ */
-.contentabout-live{
+.content-about-live {
     margin: 109px 0 104px 351px;
     display: flex;
 }
 
-.contentabout-live-text-block{
+.about-live-text-block {
     margin-left: 85px;
     width: 100%;
 }
 
-.contentabout-live-text-description{
+.about-live-text-description {
     width: 444px;
 }
 
-.contentabout-live-text-special{
+.about-live-text-special {
     display: flex;
 }
 
-.contentabout-live-text-special-textblock{
+.about-live-text-special-textblock {
     margin-left: 11px;
     flex-grow: 1;
 }
 
-.contentabout-live-text-special-description{
+.about-live-text-special-description {
     color: #1A2AB2;
 }
 
-.contentabout-live-text-special-hr{
+.about-live-text-special-hr {
     border: none;
-    background-color:#1A2AB2;
+    background-color: #1A2AB2;
     color: #1A2AB2;
     height: 1px;
+}
+
+/*----------------------- БЛОК О ВНЕШНОСТИ ОБИТАТЕЛЯ ------------------------------ */
+.content-about-appearance {
+    margin: 0 326px 102px 0;
+    display: flex;
+}
+
+.about-appearance-text-block {
+    margin-left: 282px;
+}
+
+.about-appearance-text-description {
+    width: 550px;
+}
+
+.about-appearance-text-special {
+    margin-top: 49px;
+    display: flex;
+}
+
+.about-appearance-text-special-description {
+    margin-right: 12px;
+    color: #1A2AB2;
+}
+
+.about-appearance-text-special-hr {
+    margin-top: 24px;
+    border: none;
+    background-color: #1A2AB2;
+    color: #1A2AB2;
+    height: 1px;
+    width: 788px;
+    position: absolute;
+}
+
+.about-appearance-carousel {
+    margin-left: 147px;
+}
+
+.about-appearance-carousel-img-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-appearance-carousel-img {
+    margin: 0 26px;
+}
+
+.about-appearance-carousel-pages{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.about-appearance-carousel-pages-item {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.about-appearance-carousel-pages-item-disable{
+    background-color: #E3E3E3;
+}
+
+.about-appearance-carousel-pages-item-active{
+    background-color: #1A2AB2;
 }
