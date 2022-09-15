@@ -287,3 +287,45 @@
 .food-card-text{
     margin: 20px 0 30px 30px;
 }
+
+/*----------------------- БЛОК О ПРОЧИХ ОБИТАТЕЛЯХ ------------------------------ */
+.content-also{
+    margin-top: 127px;
+    margin-bottom: 140px;
+}
+.also-start-block {
+    display: flex;
+    align-items: center;
+}
+
+.also-watch-more {
+    margin-left: auto;
+    text-decoration: none;
+    color: #1A2AB2;
+}
+
+.also-watch-more:hover {
+    color: #384CF6;
+    cursor: pointer;
+}
+
+.also-line-block {
+    display: flex;
+}
+
+.also-card-item {
+    background: #FFFFFF;
+    box-shadow: 0px 3.89312px 23.3587px rgba(189, 189, 189, 0.23);
+    border-radius: 15px;
+    width: max-content;
+    margin-right: 30px;
+}
+
+.also-card-item:hover {
+    box-shadow: 0px 10.89px 46px rgba(56, 76, 246, 0.18);
+    cursor: pointer;
+}
+
+.also-card-item-text {
+    padding: 22px;
+}
