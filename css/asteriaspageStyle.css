@@ -185,7 +185,7 @@
     position: relative;
 }
 
-.neighbors-card:hover{
+.neighbors-card:hover {
     cursor: pointer;
 }
 
@@ -205,7 +205,7 @@
     width: 100%;
 }
 
-.neighbors-card-textblock{
+.neighbors-card-textblock {
     position: absolute;
     margin-left: 31px;
     margin-top: 380px;
@@ -217,7 +217,8 @@
 }
 
 .neighbors-card-button {
-    background-color: rgba(32, 32, 32, 0.7);;
+    background-color: rgba(32, 32, 32, 0.7);
+    ;
     box-shadow: 0px 3.89312px 23.3587px rgba(32, 32, 32, 0.3);
     border-radius: 50px;
     border: transparent;
@@ -226,7 +227,7 @@
     width: max-content;
 }
 
-.neighbors-cardlist-column2{
+.neighbors-cardlist-column2 {
     display: grid;
     grid-template-columns: repeat(1, 666.5px);
     grid-template-rows: repeat(2, 268.71px);
@@ -236,26 +237,53 @@
     margin-bottom: 29.42px;
 }
 
-.neighbors-cardlist-column2 :nth-child(3){
+.neighbors-cardlist-column2 :nth-child(3) {
     margin-top: 111.29px;
 }
 
-.neighbors-cardlist-column2-row{
+.neighbors-cardlist-column2-row {
     display: grid;
     grid-template-columns: repeat(2, 348.25px);
     grid-template-rows: repeat(1, 239.29px);
 }
 
-.neighbors-cardlist-column2-row>*{
+.neighbors-cardlist-column2-row>* {
     margin-right: 30.04px;
 }
 
-.neighbors-textblock{
+.neighbors-textblock {
     margin-top: 48px;
     display: flex;
     align-items: center;
 }
 
-.neighbors-textblock-button{
+.neighbors-textblock-button {
     margin-left: auto;
+}
+
+/*----------------------- БЛОК О ПИТАНИИ ------------------------------ */
+.content-food {
+    margin-top: 126px;
+    margin-bottom: 140px;
+}
+
+.food-cardlist {
+    margin-top: 43px;
+    display: flex;
+}
+
+.food-card {
+    background: #FFFFFF;
+    box-shadow: 0px 3.89312px 23.3587px rgba(189, 189, 189, 0.23);
+    border-radius: 15px;
+    margin-right: 30px;
+}
+
+.food-card:hover{
+    box-shadow: 0px 10.89px 46px rgba(56, 76, 246, 0.18);
+    cursor: pointer;
+}
+
+.food-card-text{
+    margin: 20px 0 30px 30px;
 }
