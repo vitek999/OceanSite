@@ -134,7 +134,7 @@
     margin: 0 26px;
 }
 
-.about-appearance-carousel-pages{
+.about-appearance-carousel-pages {
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -147,10 +147,115 @@
     margin-right: 7px;
 }
 
-.about-appearance-carousel-pages-item-disable{
+.about-appearance-carousel-pages-item-disable {
     background-color: #E3E3E3;
 }
 
-.about-appearance-carousel-pages-item-active{
+.about-appearance-carousel-pages-item-active {
     background-color: #1A2AB2;
+}
+
+/*----------------------- БЛОК О СОСЕДЯХ ------------------------------ */
+.neighbors-block {
+    background: #FAFAFA;
+    border-radius: 30px;
+}
+
+.content-neighbors {
+    padding: 66px 0;
+}
+
+.neighbors-header {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.neighbors-cardlist {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(2, 697.5px);
+    grid-template-rows: repeat(1, 506px);
+}
+
+.neighbors-cardlist>* {
+    margin-right: 31px;
+}
+
+.neighbors-card {
+    position: relative;
+}
+
+.neighbors-card:hover{
+    cursor: pointer;
+}
+
+.neighbors-card:hover .neighbors-card-button {
+    background-color: rgba(26, 42, 178, 0.7);
+}
+
+.neighbors-card-img {
+    position: absolute;
+}
+
+.neighbors-card-gradient {
+    position: absolute;
+    background: linear-gradient(180deg, rgba(23, 24, 31, 0) 31.6%, rgba(0, 0, 0, 0.468) 73.45%);
+    border-radius: 15px;
+    height: 100%;
+    width: 100%;
+}
+
+.neighbors-card-textblock{
+    position: absolute;
+    margin-left: 31px;
+    margin-top: 380px;
+}
+
+.neighbors-card-header {
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.neighbors-card-button {
+    background-color: rgba(32, 32, 32, 0.7);;
+    box-shadow: 0px 3.89312px 23.3587px rgba(32, 32, 32, 0.3);
+    border-radius: 50px;
+    border: transparent;
+    color: #FFFFFF;
+    padding: 3px 36px;
+    width: max-content;
+}
+
+.neighbors-cardlist-column2{
+    display: grid;
+    grid-template-columns: repeat(1, 666.5px);
+    grid-template-rows: repeat(2, 268.71px);
+}
+
+.neighbors-cardlist-column2>* {
+    margin-bottom: 29.42px;
+}
+
+.neighbors-cardlist-column2 :nth-child(3){
+    margin-top: 111.29px;
+}
+
+.neighbors-cardlist-column2-row{
+    display: grid;
+    grid-template-columns: repeat(2, 348.25px);
+    grid-template-rows: repeat(1, 239.29px);
+}
+
+.neighbors-cardlist-column2-row>*{
+    margin-right: 30.04px;
+}
+
+.neighbors-textblock{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.neighbors-textblock-button{
+    margin-left: auto;
 }
