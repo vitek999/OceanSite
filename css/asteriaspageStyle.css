@@ -279,20 +279,50 @@
     margin-right: 30px;
 }
 
-.food-card:hover{
+.food-card:hover {
     box-shadow: 0px 10.89px 46px rgba(56, 76, 246, 0.18);
     cursor: pointer;
 }
 
-.food-card-text{
+.food-card-text {
     margin: 20px 0 30px 30px;
 }
 
+/*----------------------- БЛОК О ХИЩНИКЕ ------------------------------ */
+.content-predator {
+    display: flex;
+    background: #FAFAFA;
+    border-radius: 15px;
+}
+
+.predator-text-block{
+    margin-top: 50px;
+    margin-left: 72.61px;
+}
+
+.predator-text-header{
+    margin-bottom: 14px;
+}
+
+.predator-text-description{
+    margin-bottom: 40px;
+}
+
+.predator-button{
+    margin-top: 28px;
+}
+
+.predator-img{
+    margin-left: auto;
+    border-radius: 15px;
+}
+
 /*----------------------- БЛОК О ПРОЧИХ ОБИТАТЕЛЯХ ------------------------------ */
-.content-also{
+.content-also {
     margin-top: 127px;
     margin-bottom: 140px;
 }
+
 .also-start-block {
     display: flex;
     align-items: center;
