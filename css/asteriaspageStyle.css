@@ -295,24 +295,24 @@
     border-radius: 15px;
 }
 
-.predator-text-block{
+.predator-text-block {
     margin-top: 50px;
     margin-left: 72.61px;
 }
 
-.predator-text-header{
+.predator-text-header {
     margin-bottom: 14px;
 }
 
-.predator-text-description{
+.predator-text-description {
     margin-bottom: 40px;
 }
 
-.predator-button{
+.predator-button {
     margin-top: 28px;
 }
 
-.predator-img{
+.predator-img {
     margin-left: auto;
     border-radius: 15px;
 }
@@ -358,4 +358,49 @@
 
 .also-card-item-text {
     padding: 22px;
+}
+
+/*----------------------- БЛОК С ВИДЕОМАТЕРИАЛОМ ------------------------------ */
+.content-video {
+    margin-top: 128px;
+    display: flex;
+}
+
+.video-online {
+    margin-left: 279px;
+    border-radius: 15px;
+}
+
+.video-text-block{
+    margin-left: 118px;
+    width: 100%;
+}
+
+.video-text-header{
+    margin: 0 0 28px 0;
+}
+
+.video-text-description{
+    width: 444px;
+    margin-bottom: 63px;
+}
+
+.video-text-special {
+    display: flex;
+}
+
+.video-text-special-textblock {
+    margin-left: 11px;
+    flex-grow: 1;
+}
+
+.video-text-special-description {
+    color: #1A2AB2;
+}
+
+.video-text-special-hr {
+    border: none;
+    background-color: #1A2AB2;
+    color: #1A2AB2;
+    height: 1px;
 }
