@@ -316,6 +316,91 @@
     margin-left: auto;
     border-radius: 15px;
 }
+/*----------------------- БЛОК С ВИДЕОМАТЕРИАЛОМ ------------------------------ */
+.content-video {
+    margin-top: 128px;
+    display: flex;
+    margin-bottom: 140px;
+}
+
+.video-online {
+    margin-left: 279px;
+    border-radius: 15px;
+}
+
+.video-text-block{
+    margin-left: 118px;
+    width: 100%;
+}
+
+.video-text-header{
+    margin: 0 0 28px 0;
+}
+
+.video-text-description{
+    width: 444px;
+    margin-bottom: 63px;
+}
+
+.video-text-special {
+    display: flex;
+}
+
+.video-text-special-textblock {
+    margin-left: 11px;
+    flex-grow: 1;
+}
+
+.video-text-special-description {
+    color: #1A2AB2;
+}
+
+.video-text-special-hr {
+    border: none;
+    background-color: #1A2AB2;
+    color: #1A2AB2;
+    height: 1px;
+}
+/*----------------------- БЛОК О ИНТЕРЕСНЫХ ФАКТАХ ------------------------------ */
+.intresting-fact-block{
+    background-color: #FAFAFA;
+}
+
+.content-intresting-fact{
+    padding: 53px 0;
+}
+
+.intresting-fact-header{
+    margin-bottom: 39px;
+}
+
+.intresting-fact-list{
+    display: flex;
+    width: 1272px;
+    margin-left: 41px;
+}
+
+.intresting-fact-list-item{
+    display: flex;
+    align-items: flex-start;
+    margin-right: 63px;
+}
+
+.intresting-fact-list-item-text{
+    margin-left: 32px;
+}
+
+.item-1{
+    width: 401px;
+}
+
+.item-2{
+    width: 318px;
+}
+
+.item-3{
+    width: 343px;
+}
 
 /*----------------------- БЛОК О ПРОЧИХ ОБИТАТЕЛЯХ ------------------------------ */
 .content-also {
@@ -360,47 +445,3 @@
     padding: 22px;
 }
 
-/*----------------------- БЛОК С ВИДЕОМАТЕРИАЛОМ ------------------------------ */
-.content-video {
-    margin-top: 128px;
-    display: flex;
-}
-
-.video-online {
-    margin-left: 279px;
-    border-radius: 15px;
-}
-
-.video-text-block{
-    margin-left: 118px;
-    width: 100%;
-}
-
-.video-text-header{
-    margin: 0 0 28px 0;
-}
-
-.video-text-description{
-    width: 444px;
-    margin-bottom: 63px;
-}
-
-.video-text-special {
-    display: flex;
-}
-
-.video-text-special-textblock {
-    margin-left: 11px;
-    flex-grow: 1;
-}
-
-.video-text-special-description {
-    color: #1A2AB2;
-}
-
-.video-text-special-hr {
-    border: none;
-    background-color: #1A2AB2;
-    color: #1A2AB2;
-    height: 1px;
-}
