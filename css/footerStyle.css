@@ -63,6 +63,15 @@
     cursor: pointer;
 }
 
+.email-input, .email-input:focus, .email-input::placeholder{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #FAFAFA;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
 /*---------------------— БЛОК C КОНТАКТАМИ —--------------------------— */
 .contact-block {
     padding-top: 50px;
