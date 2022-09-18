@@ -79,9 +79,6 @@
 }
 
 /*---------------------— БЛОК НОВОСТНОЙ ЛЕНТЫ —--------------------------— */
-.news-block {
-    margin-bottom: 129px;
-}
 
 .news-start-block {
     display: flex;
@@ -94,6 +91,7 @@
 
 .news-cardlist {
     overflow: hidden;
+    padding-bottom: 129px;
     transition: margin-left 250ms;
     display: flex;
 }

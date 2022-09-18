@@ -11,24 +11,18 @@ const nextArrow = document.querySelector("#button-arrow-right");
 let position = 0;
 
 backArrow.onclick = () => {
-    console.log('hello back')
     position += width * visibleElementsCount;
     // последнее передвижение влево может быть не на 3, а на 2 или 1 элемент
     position = Math.min(position, 0)
     setArrowsStyles()
-    console.log('left: ' + isLeftArrowActive())
-    console.log('right: ' + isRightArrowActive())
     list.style.marginLeft = position + 'px';
 }
 
 nextArrow.onclick = () => {
-    console.log('hello next')
     position -= width * visibleElementsCount;
     // последнее передвижение вправо может быть не на 3, а на 2 или 1 элемент
     position = Math.max(position, -width * (elements.length - visibleElementsCount));
     setArrowsStyles()
-    console.log('left: ' + isLeftArrowActive())
-    console.log('right: ' + isRightArrowActive())
     list.style.marginLeft = position + 'px';
 }
 
@@ -62,8 +56,3 @@ const setArrowsStyles = () => {
 };
 
 setArrowsStyles();
-
-console.log(list)
-console.log(elements)
-console.log(backArrow)
-console.log(nextArrow)
