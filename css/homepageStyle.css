@@ -93,6 +93,8 @@
 }
 
 .news-cardlist {
+    overflow: hidden;
+    transition: margin-left 250ms;
     display: flex;
 }
 
@@ -220,6 +222,10 @@
 
 .about-description-button {
     padding: 15.5px 54px;
+}
+
+.content-news { 
+    overflow: hidden;
 }
 
 .about-cardlist {
