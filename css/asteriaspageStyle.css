@@ -130,8 +130,24 @@
     align-items: center;
 }
 
-.about-appearance-carousel-img {
+.about-appearance-carousel-img-container {
+    width: 488px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
     margin: 0 26px;
+}
+
+.about-appearance-carousel-img-container-1 {
+    display: flex;
+    flex-direction: row;
+    transition: margin-left 250ms;
+}
+
+.about-appearance-carousel-img {
+    width: 488px;
+    height: 320px;
+    border-radius: 15px;
 }
 
 .about-appearance-carousel-pages {
