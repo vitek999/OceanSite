@@ -57,79 +57,24 @@
             <div class="text-body16 semibold-text main-text">Фильтр:</div>
 
             <div class="filters-group">
-                <button class="button-only-border button-only-border-active filter-button">Амфибии</button>
-                <button class="button-only-border button-only-border-disabled filter-button">Беспозвоночные</button>
-                <button class="button-only-border button-only-border-disabled filter-button">Птицы</button>
-                <button class="button-only-border button-only-border-disabled filter-button">Рептилии</button>
-                <button class="button-only-border button-only-border-disabled filter-button">Рыбы</button>
-                <button class="button-only-border button-only-border-disabled filter-button">Млекопитающие</button>
+                <button id="amphibians" class="button-only-border button-only-border-active filter-button" onclick="updateByKey('amphibians')">Амфибии</button>
+                <button id="invertebrates" class="button-only-border button-only-border-disabled filter-button" onclick="updateByKey('invertebrates')">Беспозвоночные</button>
+                <button id="birds" class="button-only-border button-only-border-disabled filter-button" onclick="updateByKey('birds')">Птицы</button>
+                <button id="reptiles" class="button-only-border button-only-border-disabled filter-button" onclick="updateByKey('reptiles')">Рептилии</button>
+                <button id="fish" class="button-only-border button-only-border-disabled filter-button" onclick="updateByKey('fish')">Рыбы</button>
+                <button id="mammals" class="button-only-border button-only-border-disabled filter-button" onclick="updateByKey('mammals')">Млекопитающие</button>
             </div>
         </div>
     </div>
 
     <div class="inhabitants-list-block">
         <div class="content content-inhabitants-list">
-            <div class="inhabitants-list-table-cards">
-                <a class="inhabitants-list-card" href="">
-                    <img class="inhabitants-list-card-img" src="./img/inhabitantspage/AmfibCard1.svg" alt="">
-                    <div class="inhabitants-list-card-gradient"></div>
-                    <div class="inhabitants-list-card-text">
-                        <h3 class="inhabitants-list-card-text-header">Аксолотль древесный</h3>
-                        <div class="text-body18 regular-text">Лягушки</div>
-                    </div>
-                </a>
 
-                <a class="inhabitants-list-card" href="">
-                    <img class="inhabitants-list-card-img" src="./img/inhabitantspage/AmfibCard2.svg" alt="">
-                    <div class="inhabitants-list-card-gradient"></div>
-                    <div class="inhabitants-list-card-text">
-                        <h3 class="inhabitants-list-card-text-header">Амбистом</h3>
-                        <div class="text-body18 regular-text">Тритоны</div>
-                    </div>
-                </a>
-
-                <a class="inhabitants-list-card" href="">
-                    <img class="inhabitants-list-card-img" src="./img/inhabitantspage/AmfibCard3.svg" alt="">
-                    <div class="inhabitants-list-card-gradient"></div>
-                    <div class="inhabitants-list-card-text">
-                        <h3 class="inhabitants-list-card-text-header">Древолаз</h3>
-                        <div class="text-body18 regular-text">Лягушки</div>
-                    </div>
-                </a>
-
-                <a class="inhabitants-list-card" href="">
-                    <img class="inhabitants-list-card-img" src="./img/inhabitantspage/AmfibCard4.svg" alt="">
-                    <div class="inhabitants-list-card-gradient"></div>
-                    <div class="inhabitants-list-card-text">
-                        <h3 class="inhabitants-list-card-text-header">Жаба обыкновенная</h3>
-                        <div class="text-body18 regular-text">Жаба</div>
-                    </div>
-                </a>
-
-                <a class="inhabitants-list-card" href="">
-                    <img class="inhabitants-list-card-img" src="./img/inhabitantspage/AmfibCard5.svg" alt="">
-                    <div class="inhabitants-list-card-gradient"></div>
-                    <div class="inhabitants-list-card-text">
-                        <h3 class="inhabitants-list-card-text-header">Крестовка</h3>
-                        <div class="text-body18 regular-text">Лягушки</div>
-                    </div>
-                </a>
-
-                <a class="inhabitants-list-card" href="">
-                    <img class="inhabitants-list-card-img" src="./img/inhabitantspage/AmfibCard6.svg" alt="">
-                    <div class="inhabitants-list-card-gradient"></div>
-                    <div class="inhabitants-list-card-text">
-                        <h3 class="inhabitants-list-card-text-header">Леопардовый тритон</h3>
-                        <div class="text-body18 regular-text">Тритоны</div>
-                    </div>
-                </a>
-            </div>
-
-            <div class="inhabitants-list-button-block">
-                <button class="button-arrow button-arrow-active button-arrow-left"></button>
-                <button class="button-arrow button-arrow-default button-arrow-right-default"></button>
-            </div>
         </div>
+    </div>
+   <div class="inhabitants-list-button-block">
+        <button id="back-arrow-button" class="button-arrow button-arrow-active button-arrow-left"></button>
+        <button id="next-arrow-button" class="button-arrow button-arrow-default button-arrow-right-default"></button>
     </div>
 
     <div class="help-inhabitants-block">
@@ -163,7 +108,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
         </script>
-    <script src="./js/script.js"></script>
+    <script src="./js/inhavitantspage-script.js"></script>
 </body>
 <footer>
     <div class="subscription-block">
